@@ -5,14 +5,14 @@
     </head>
     <body>
         <table width="100%" align="center" cellpadding="10">
-            <tr align="center">
+            <tr colspan="3" align="center">
                 <td>
-                    <table width="50%">
+                    <table width="50%" style="border-style:dotted" border="1" >
                         <tr align="center">
                             <td><h1><strong>Student Registration Form</strong></h1></td>
                         </tr>
                     </table>
-                    <table>
+                    <table style="border-style:dotted" border="1" >
                         <tr align="center">
                             <td>student name:</td>
                             <td>
@@ -30,9 +30,9 @@
                         <tr>
                             <td>gender:</td>
                             <td>
-                                male<input type="checkbox" name="gender">
-                                female<input type="checkbox" name="gender">
-                                other<input type="checkbox" name="gender">
+                                <input type="radio" name="gender" value="M"/>Male
+                                <input type="radio" name="gender" value="F" />Female
+                                <input type="radio" name="gender" value="o" />Other
                             </td>
                         </tr>
                         <tr>
